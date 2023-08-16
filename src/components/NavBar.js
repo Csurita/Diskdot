@@ -24,23 +24,8 @@ function NavBar() {
             </Link>
             <ul className={`nav-menu ${showMenu ? 'show' : ''}`} >
               <li onClick={removeMenu}>
-                <Link to='/about' onClick={toggleMenu}>
-                  About Us
-                </Link>
-              </li>
-              <li onClick={removeMenu}>
-                <Link to='/services' onClick={toggleMenu}>
-                  Services
-                </Link>
-              </li>
-              <li onClick={removeMenu}>
                 <Link to='/contact' onClick={toggleMenu}>
-                  Contact
-                </Link>
-              </li>
-              <li onClick={removeMenu}>
-                <Link className ='login-button' to='/login'>
-                  Login or Signup
+                  Contact Us
                 </Link>
               </li>
             </ul>
