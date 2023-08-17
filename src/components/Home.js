@@ -11,9 +11,9 @@ import Partner7 from '../assets/apc-logo.png'
 import Partner8 from '../assets/netgear-logo.png'
 import Partner9 from '../assets/cisco-logo.png'
 import Partner10 from '../assets/logitech-logo.png'
-import TestImage from '../assets/testimage.png'
-import TestImage2 from '../assets/testimage2.webp'
-import TestImage3 from '../assets/testimage3.png'
+import Subimage1 from '../assets/subimage1.png'
+import Subimage2 from '../assets/subimage2.png'
+import Subimage3 from '../assets/subimage3.png'
 
 function Home() {
     return (
@@ -81,7 +81,7 @@ function Home() {
                     </p>
                 </div>
                 <div className='box-section-image'>
-                    <img src={TestImage2} alt='test' />
+                    <img src={Subimage1} alt='test' />
                 </div>
             </div>
         </div>
@@ -89,7 +89,7 @@ function Home() {
         <div className="box-section">
             <div className="box-section-internal">
                 <div className='box-section-image'>
-                    <img src={TestImage} alt='test' />
+                    <img src={Subimage2} alt='test' />
                 </div>
                 <div class='box-section-text'>
                     <h3>Suport for the Apple suite</h3>
@@ -111,7 +111,7 @@ function Home() {
                     </p>
                 </div>
                 <div className='box-section-image'>
-                    <img src={TestImage3} alt='test' />
+                    <img src={Subimage3} alt='test' />
                 </div>
             </div>
         </div>
