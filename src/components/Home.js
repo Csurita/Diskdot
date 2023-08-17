@@ -26,7 +26,7 @@ function Home() {
             <Link className='main-button main-try' to='/login'>
                 Try us out
             </Link>
-            <Link className='main-button main-contact' to='/contact'>
+            <Link className='main-button main-contact' to='https://form.jotform.com/232277617660157'>
                 Become a Partner
             </Link>
         </div>

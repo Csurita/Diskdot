@@ -24,7 +24,7 @@ function NavBar() {
             </Link>
             <ul className={`nav-menu ${showMenu ? 'show' : ''}`} >
               <li onClick={removeMenu}>
-                <Link to='/contact' onClick={toggleMenu}>
+                <Link to='https://form.jotform.com/232277617660157' onClick={toggleMenu}>
                   Contact Us
                 </Link>
               </li>
